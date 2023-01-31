@@ -1,0 +1,42 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+form {
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+label,
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+textarea {
+  height: 150px;
+  resize: none;
+}
+h1 {
+  text-align: center;
+}
+button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  text-decoration:solid;
+  box-shadow: 0px 0.1rem 0.4rem rgba(0, 0, 0, 0,0.3);
+  font-size: larger;
+  font-weight: bolder;
+}
